@@ -45,7 +45,7 @@ const router = useRouter();
                         <AvatarFallback className="bg-yellow-500 text-yellow-900 text-sm font-bold">{user.name[0]}</AvatarFallback>
                     </Avatar>
                     <div className="flex flex-col">
-                        <span className="text-base font-medium-text-gray-400">
+                        <span className="text-base font-medium text-gray-400">
                             {user.name}
                         </span>
                         <span className="text-sm text-gray-500">
